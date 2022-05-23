@@ -1,0 +1,531 @@
+/* HOME */
+.home {
+	position: relative;
+}
+/* HOME end */
+
+/* Pos Header */
+.pos_header .col-sm-7 p {
+	margin-bottom: 0;
+}
+
+.pos_header .gradient {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.pos_header .gradient h1 {
+	color: white;
+	font-size: 2rem;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
+.pos_header .gradient p {
+	color: white;
+}
+
+.pos_header .content_buton {
+	text-align: center;
+}
+
+.pos_header .gradient a.btn {
+	background: white!important;
+	border: white!important;
+	color: var(--secondary-color)!important;
+	margin-top: 25px;
+}
+
+.pos_header .gradient a.btn:hover {
+	background: var(--secondary-color)!important;
+	border: var(--secondary-color)!important;
+	color: white!important;
+	margin-top: 25px;
+}
+
+.pos_header .img_fundacion {
+	height: 100%;
+}
+/* Pos Header end */
+
+/* Foco de Trabajo */
+.foco_trabajo {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.foco_trabajo h2 {
+	font-weight: 700;
+	font-size: 2rem;
+	text-align: center;
+	margin-bottom: 20px;
+}
+/* Foco de Trabajo end */
+
+/* Grados */
+.grados {
+	padding-top: 30px;
+	background-image: url('../img/fondo-ondas.jpg');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+	padding-bottom: 30px;
+}
+
+.grados h2 {
+	font-weight: 700;
+	font-size: 2rem;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.grados .content_grado {
+	position: relative;
+}
+
+.grados .grado_individual {
+	margin-bottom: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.grados .content_data {
+	position: absolute;
+	bottom: 60px;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+.grados .content_data h3 {
+	color: white;
+	font-size: 1.5rem;
+	line-height: 1.5;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
+.grados .content_data p {
+	color: white;
+	margin-bottom: 0;
+}
+/* Grados end */
+
+/* Programas */
+.programas {
+	margin-bottom: 60px;
+}
+
+.programas .col-md-6 {
+	position: relative;
+}
+
+.programas .content_programas {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.programas .content_programas h3 {
+	color: white;
+	text-align: center;
+	font-size: 2rem;
+	font-weight: 700;
+}
+
+.programas .content_programas a.btn {
+	margin-top: 20px;
+	background: white!important;
+	border-color: white!important;
+	color: var(--secondary-color)!important;
+	font-size: 0.85rem;
+}
+
+.programas .content_programas a.btn:hover {
+	background: var(--secondary-color)!important;
+	border-color: var(--secondary-color)!important;
+	color: white!important;
+}
+/* Programas end */
+
+/* Formulario */
+.formulario {
+	margin-bottom: 60px;
+}
+
+.formulario .form {
+	margin-bottom: 100px;
+}
+
+.formulario h2 {
+	text-align: center;
+	font-size: 1.25rem;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
+.formulario .form_donation h3 {
+	text-align: center;
+	font-size: 1.15rem;
+	font-weight: 700;
+}
+
+
+.formulario .form_donation p {
+	margin-bottom: 20px;
+}
+
+.formulario .form_donation .importes {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 15px;
+}
+
+.formulario .importes button,
+.formulario .otro_importe button {
+	background: white!important;
+	border-color: var(--secondary-color)!important;
+	color: var(--secondary-color)!important;
+}
+
+.formulario .importes button:hover,
+.formulario .otro_importe button:hover {
+	background: var(--secondary-color)!important;
+	color: white!important;
+}
+
+.formulario .form_donation .importes {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.formulario .form_donation .importes button,
+.formulario .form_donation .otro_importe button {
+	min-width: 80px;
+}
+
+.formulario .form_donation .otro_importe {
+	display: flex;
+	margin-bottom: 30px;
+}
+
+.formulario .form_donation .otro_importe button {
+	margin-right: 15px;
+}
+
+.formulario .form_donation .content_button_siguiente {
+	text-align: right;
+}
+
+.formulario p {
+	text-align: center;
+}
+
+.formulario .form-label {
+	font-weight: 300;
+	font-size: 0.85rem;
+}
+
+.formulario #send {
+	margin-top: 30px;
+}
+
+.formulario #wait {
+	display: none;
+}
+
+.formulario #wait.active {
+	display: inline-block;
+}
+/* Formulario end */
+
+/* Clientes */
+.clientes {
+	background: #dbdcdb;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.clientes .content_logos img {
+	width: 100px;
+}
+
+.clientes .content_logos {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 15px 30px;
+}
+/* Clientes end */
+
+
+
+/* MEDIA QUERIES */
+@media (min-width: 480px) {
+
+}
+
+@media (min-width: 576px) {
+
+	/* Pos Header */
+	.pos_header .gradient h1 {
+		margin-bottom: 30px;
+	}
+	/* Pos Header end */
+
+	/* Foco de Trabajo */
+	.foco_trabajo h2 {
+		font-size: 1.75rem;
+	}
+	/* Foco de Trabajo end */
+
+	/* Grados */
+	.grados h2 {
+		font-size: 1.75rem;
+	}
+	/* Grados end */
+
+	/* Programas */
+	.programas .content_programas h3 {
+		font-size: 2.5rem;
+	}
+	/* Programas end */
+
+}
+
+@media (min-width: 768px) {
+
+	/* Foco de Trabajo */
+	.foco_trabajo {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+	/* Foco de Trabajo end */
+
+	/* Grados */
+	.grados {
+		padding-top: 60px;
+	}
+	/* Grados end */
+
+	/* Programas */
+	.programas .content_programas h3 {
+		font-size: 2rem;
+	}
+	/* Programas end */
+
+}
+
+@media (min-width: 992px) {
+
+	/* Pos Header */
+	.pos_header ,
+	.pos_header .gradient {
+		height: 80vh;
+	}
+
+	.pos_header .col-sm-5 {
+		background-image: url('../img/colibri.jpg');
+		background-repeat: no-repeat;
+		background-position: 63% 50%;
+		background-size: cover;
+	}
+
+	.pos_header .img_fundacion {
+		display: none;
+	}
+
+	.pos_header .gradient h1 {
+		font-size: 2.5rem;
+	}
+	/* Pos Header end */
+
+	/* Formulario */
+	.image_form {
+		background: url('../img/home/background-formulario.jpg');
+		background-position: 50% 50%;
+		background-size: cover;
+		padding-bottom: 5px;
+	}
+	
+	.formulario .content_form {
+		background: rgba(255, 255, 255, 0.8);
+		margin: -160px auto 0 auto;
+		padding: 60px;
+		border-radius: 10px;
+		box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+		max-width: 85%;
+	}
+
+	.formulario .content_form_donation {
+		margin: -60px auto 0 auto!important;
+	}
+
+	.formulario h2 {
+		max-width: 80%;
+		margin: 0 auto 30px auto;
+		font-size: 1.5rem;
+	}
+
+	.formulario p {
+		max-width: 80%;
+		margin: 0 auto 30px auto;
+	}
+	/* Formulario end */
+
+	/* Grados */
+	.grados .content_data {
+		top: 60px;
+		margin-top: 170px;
+	}
+	/* Grados end */
+
+	/* Programas */
+	.programas {
+		margin-bottom: 250px;
+	}
+	/* Programas end */
+
+}
+
+@media (min-width: 1200px) {
+
+	/* Pos Header */
+	.pos_header .content_buton {
+		text-align: left;
+	}
+	/* Pos Header end */
+
+	/* Programas */
+	.programas .content_programas h3 {
+		font-size: 2.25rem;
+	}
+	/* Programas end */
+
+}
+
+@media (min-width: 1300px) {
+
+	/* Pos Header */
+	.pos_header ,
+	.pos_header .gradient {
+		height: 90vh;
+	}
+
+	.pos_header .col-sm-5 {
+		background-position: 50% 80%;
+	}
+	/* Pos Header end */
+
+	/* Formulario */
+	.formulario .content_form {
+		margin: -200px auto 0 auto;
+	}
+	/* Formulario end */
+
+	/* Foco de Trabajo */
+	.foco_trabajo {
+		padding-top: 90px;
+		padding-bottom: 90px;
+	}
+
+	.foco_trabajo h2 {
+		font-size: 2rem;
+		margin-bottom: 60px;
+	}
+
+	.foco_trabajo p {
+		font-size: 1.25rem;
+		margin-bottom: 60px;
+	}
+	/* Foco de Trabajo end */
+
+	/* Grados */
+	.grados {
+		padding-top: 120px;
+		padding-bottom: 120px;
+	}
+
+	.grados h2 {
+		font-size: 2rem;
+		margin-bottom: 60px;
+	}
+
+	.grados .content_data {
+		top: 170px;
+	}
+	/* Grados end */
+
+}
+
+@media (min-width: 1600px) {
+
+	/* Pos Header */
+	.pos_header .gradient h1 {
+		font-size: 3.5rem;
+		margin-bottom: 40px;
+	}
+
+	.pos_header .gradient p {
+		font-size: 1.25rem;
+	}
+	/* Pos Header end */
+
+	/* Programas */
+	.programas .content_programas {
+		padding-right: 200px;
+		padding-left: 200px;
+	}
+
+	.programas .content_programas:last-child {
+		padding-right: 160px;
+		padding-left: 160px;
+	}
+
+	.programas .content_programas h3 {
+		font-size: 3rem;
+	}
+
+	.programas .content_programas a.btn {
+		font-size: 1rem;
+		margin-top: 60px;
+	}
+	/* Programas end */
+
+	/* Formulario */
+	.formulario h2 {
+		font-size: 1.75rem;
+	}
+
+	.formulario p {
+		font-size: 1.15rem;
+	}
+
+	.formulario #send {
+		margin-top: 60px;
+	}
+	/* Formulario end */
+
+	/* Foco de Trabajo */
+	.foco_trabajo {
+		padding-top: 90px;
+		padding-bottom: 90px;
+	}
+	/* Foco de Trabajo end */
+
+}
