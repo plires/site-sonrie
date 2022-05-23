@@ -35,10 +35,12 @@ window.addEventListener('scroll', function(){
 
 function showlHeader() {
   header.classList.add('background')
+  document.getElementById("first_section").style.marginTop = "160px"
 }
 
 function hidelHeader() {
 	header.classList.remove('background')
+  document.getElementById("first_section").style.marginTop = "0"
 }
 
 AOS.init();
