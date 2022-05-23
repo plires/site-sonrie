@@ -1,0 +1,210 @@
+.bienestar {
+	position: relative;
+}
+
+/* Header Bienestar */
+.bienestar .header_bienestar {
+	background: url('../img/bienestar/header-bienestar.jpg');
+	background-size: cover;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	min-height: 520px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+.bienestar .header_bienestar h1 {
+	color: white;
+	font-size: 2.25rem;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 35px;
+}
+/* Header Bienestar end */
+
+/* Programa de Cooperación */
+.bienestar .programa_cooperacion {
+	background: #e4e2e2;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.bienestar .programa_cooperacion h2 {
+	font-weight: 700;
+	font-size: 1.75rem;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.bienestar .programa_cooperacion h3 {
+	font-weight: 700;
+	font-size: 1.25rem;
+	text-align: center;
+	margin-bottom: 20px;
+}
+/* Programa de Cooperación end */
+
+/* Modulo Sumate */
+.bienestar .modulo_sumate {
+	background: url('../img/bienestar/img-manos.jpg');
+	background-size: cover;	
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.bienestar .modulo_sumate .row {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.bienestar .modulo_sumate h2 {
+	font-weight: 700;
+	font-size: 1.75rem;
+	text-align: center;
+	margin-bottom: 20px;
+	color: white;
+}
+
+.bienestar .modulo_sumate p {
+	color: white;
+	margin-bottom: 0;
+}
+
+.bienestar .modulo_sumate .content_button {
+	margin-top: 60px;
+	text-align: center;
+}
+/* Modulo Sumate end */
+
+
+/* MEDIA QUERIES */
+@media (min-width: 480px) {
+
+}
+
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+
+	/* Programa de Cooperación */
+	.bienestar .programa_cooperacion {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+	/* Programa de Cooperación end */
+
+	/* Modulo Sumate */
+	.bienestar .modulo_sumate {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+
+	.bienestar .modulo_sumate h2 {
+	  margin-bottom: 40px;
+	}
+	/* Modulo Sumate end */
+
+}
+
+@media (min-width: 992px) {
+
+	/* Header Bienestar */
+	.bienestar .header_bienestar .col-md-12 {
+		justify-content: flex-start;
+	}
+
+	.bienestar .header_bienestar h1 {
+		text-align: left;
+		font-size: 2.5rem;
+		margin-bottom: 60px;
+	}
+	/* Header Bienestar end */
+
+	/* Modulo Sumate */
+	.bienestar .modulo_sumate h2 {
+		text-align: left;
+	}
+	/* Modulo Sumate end */
+
+}
+
+@media (min-width: 1200px) {
+
+	/* Header Bienestar */
+	.bienestar .header_bienestar {
+		min-height: 610px;
+	}
+	/* Header Bienestar end */
+
+}
+
+@media (min-width: 1300px) {
+
+	/* Header Bienestar */
+	.bienestar .header_bienestar {
+		min-height: 90vh;
+	}
+
+	.bienestar .header_bienestar h1 {
+		font-size: 3rem;
+		margin-bottom: 80px;
+	}
+	/* Header Bienestar end */
+
+	/* Programa de Cooperación */
+	.bienestar .programa_cooperacion h2 {
+		font-size: 2rem;
+	}
+	/* Programa de Cooperación end */
+
+	/* Modulo Sumate */
+	.bienestar .modulo_sumate h2 {
+		font-size: 2rem;
+		margin-bottom: 60px;
+	}
+
+	.bienestar .modulo_sumate p {
+		font-size: 1.25rem;
+	}
+
+	.bienestar .modulo_sumate .content_button {
+		margin-top: 80px;
+	}
+	/* Modulo Sumate end */
+
+}
+
+@media (min-width: 1600px) {
+
+	/* Header Bienestar */
+	.bienestar .header_bienestar h1 {
+		font-size: 4rem;
+		margin-bottom: 80px;
+	}
+	/* Header Bienestar end */
+
+	/* Programa de Cooperación */
+	.bienestar .programa_cooperacion {
+		padding-top: 90px;
+		padding-bottom: 90px;
+	}
+	/* Programa de Cooperación end */
+
+	/* Modulo Sumate */
+	.bienestar .modulo_sumate {
+		padding-top: 90px;
+		padding-bottom: 90px;
+	}
+
+	.bienestar .modulo_sumate .content_button {
+		margin-top: 80px;
+	}
+	/* Modulo Sumate end */
+
+}
