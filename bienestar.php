@@ -34,7 +34,7 @@
 		<?php include_once('./includes/header.php'); ?>
 
 		<!-- Header Bienestar -->
-		<section id="first_section" class="container-fluid header_bienestar">
+		<section id="first_section" class="container-fluid content_image_header header_bienestar">
 
 			<div class="container h-100">
 		  	<div class="row">
