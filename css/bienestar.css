@@ -15,7 +15,7 @@
 
 .bienestar .programa_cooperacion h2 {
 	font-weight: 700;
-	font-size: 1.75rem;
+	font-size: 2rem;
 	text-align: center;
 	margin-bottom: 20px;
 }
@@ -46,7 +46,7 @@
 
 .bienestar .modulo_sumate h2 {
 	font-weight: 700;
-	font-size: 1.75rem;
+	font-size: 2rem;
 	text-align: center;
 	margin-bottom: 20px;
 	color: white;
@@ -71,6 +71,15 @@
 
 @media (min-width: 576px) {
 
+	.bienestar .programa_cooperacion h2 {
+		font-size: 1.75rem;
+	}
+
+	/* Modulo Sumate */
+	.bienestar .modulo_sumate h2 {
+		font-size: 1.75rem;
+	}
+	/* Modulo Sumate end */
 }
 
 @media (min-width: 768px) {
