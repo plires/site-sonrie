@@ -10,7 +10,7 @@
 				<ul>
 					<li><a class="transition" href="./quienes-somos.php">QUIENES SOMOS</a></li>
 					<li><a class="transition" href="./bienestar.php">BIENESTAR</a></li>
-					<li><a class="transition" href="#">INVETIGACIÓN</a></li>
+					<li><a class="transition" href="./investigacion.php">INVESTIGACIÓN</a></li>
 					<li><a class="transition" href="#">CONTACTO</a></li>
 					<li><a href="#" class="btn btn-primary">SUMATE</a></li>
 				</ul>

@@ -1,0 +1,356 @@
+/* Header Investigacion */
+.investigacion .header_investigacion {
+	background: url('../img/investigacion/header-investigacion.jpg');
+	background-position: 30% 50% !important;
+}
+
+.investigacion .header_investigacion h1 {
+	font-size: 2rem;
+}
+/* Header Investigacion end */
+
+/* Programa de Cooperacion */
+.programa_cooperacion {
+	padding-bottom: 60px;
+	padding-top: 60px;
+	background: #e4e2e2;
+}
+
+.programa_cooperacion h2 {
+	font-weight: 700;
+	font-size: 2rem;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.programa_cooperacion p:last-child {
+	margin-bottom: 0;
+}
+/* Programa de Cooperacion end */
+
+/* Faja Rinascere */
+.faja_rinascere {
+	margin-bottom: 30px;
+	background-image: url('../img/investigacion/fondo-azul.jpg');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 300px;
+	padding: 0;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.faja_rinascere h2 {
+	color: white;
+	font-weight: 700;
+	font-size: 1.5rem;
+	text-align: center;
+	margin-bottom: 0;
+}
+/* Faja Rinascere end */
+
+/* Red Rinascere */
+.red_rinascere {
+	margin-bottom: 30px;
+}
+
+.red_rinascere .red {
+	background-image: url('../img/investigacion/red.jpg');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.red_rinascere .red h2 {
+	font-size: 2rem;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.red_rinascere .red p:last-child {
+	margin-bottom: 0;
+}
+
+.red_rinascere .cta {
+	text-align: center;
+}
+/* Red Rinascere end */
+
+/* Cuadricula Rinascere */
+.cuadricula_rinascere {
+	margin-bottom: 60px;
+}
+
+.cuadricula_rinascere .row:first-child {
+	margin-bottom: 30px;
+}
+
+.cuadricula_rinascere .data {
+	order: 1;
+}
+
+.cuadricula_rinascere .background_grey {
+	background: #e4e2e2;
+	padding: 12px;
+}
+
+.cuadricula_rinascere .background_grey p {
+	margin: 0;
+}
+/* Cuadricula Rinascere end */
+
+/* Modo Explicativo */
+.modo_explicativo h2 {
+	font-weight: 700;
+	font-size: 2rem;
+	text-align: center;
+	margin-bottom: 15px;
+}
+/* Modo Explicativo end */
+
+
+/* MEDIA QUERIES */
+@media (min-width: 480px) {
+
+}
+
+@media (min-width: 576px) {
+
+	/* Programa de Cooperacion */
+	.programa_cooperacion h2 {
+		font-size: 1.75rem;
+	}
+	/* Programa de Cooperacion end */
+
+	/* Faja Rinascere */
+	.faja_rinascere {
+		height: 370px;
+	}
+
+	.faja_rinascere h2 {
+		font-size: 1.75rem;
+		line-height: 1.5;
+	}
+	/* Faja Rinascere end */
+
+	/* Red Rinascere */
+	.red_rinascere .red h2 {
+		font-size: 1.75rem;
+	}
+	/* Red Rinascere end */
+
+	/* Modo Explicativo */
+	.modo_explicativo h2 {
+		font-size: 1.75rem;
+	}
+	/* Modo Explicativo end */
+
+}
+
+@media (min-width: 768px) {
+
+	/* Faja Rinascere */
+	.faja_rinascere {
+		height: 420px;
+	}
+	/* Faja Rinascere end */
+
+	/* Cuadricula Rinascere */
+	.cuadricula_rinascere .data,
+	.cuadricula_rinascere .img {
+		margin-left: 0;
+	}
+
+	.cuadricula_rinascere .data {
+		order: 0;
+	}
+
+	.cuadricula_rinascere .col-md-6 {
+		padding: 0;
+	}
+
+	.cuadricula_rinascere .row:first-child {
+		margin-bottom: 0;
+	}
+
+	.cuadricula_rinascere .background_grey {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
+	}
+	/* Cuadricula Rinascere end */
+
+	/* Red Rinascere */
+	.red_rinascere .image {
+		height: 360px;
+	}
+
+	.red_rinascere .image h2 {
+		font-size: 2.5rem;
+	}
+
+	.red_rinascere .image h3 {
+		font-size: 1.25rem;
+	}
+
+	.red_rinascere .red {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+
+	.red_rinascere .red h2 {
+		margin-bottom: 30px;
+	}
+
+	.red_rinascere .cta {
+		margin-top: 30px;
+	}
+	/* Red Rinascere end */
+
+}
+
+@media (min-width: 992px) {
+
+	/* Programa de Cooperacion */
+	.programa_cooperacion {
+		padding-bottom: 100px;
+		padding-top: 100px;
+	}
+	/* Programa de Cooperacion end */
+
+	/* Red Rinascere */
+	.red_rinascere .image {
+		height: 540px;
+		padding-bottom: 90px;
+	}
+	/* Red Rinascere end */
+
+	/* Cuadricula Rinascere */
+	.cuadricula_rinascere .background_grey {
+		padding-right: 50px;
+		padding-left: 50px;
+	}
+	/* Cuadricula Rinascere end */
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1300px) {
+
+	/* Header Investigacion */
+	.investigacion .header_investigacion h1 {
+		font-size: 2.5rem;
+	}
+	/* Header Investigacion end */
+
+	/* Programa de Cooperacion */
+	.programa_cooperacion h2 {
+		font-size: 2rem;
+	}
+	/* Programa de Cooperacion end */
+
+	/* Faja Rinascere */
+	.faja_rinascere {
+		height: 500px;
+	}
+
+	.faja_rinascere h2 {
+		font-size: 2.5rem;
+	}
+	/* Faja Rinascere end */
+
+	/* Red Rinascere */
+	.red_rinascere .red h2 {
+		font-size: 2rem;
+	}
+
+	.red_rinascere .red h2 {
+		font-size: 2rem;
+	}
+
+	.red_rinascere .red p {
+		font-size: 1.15rem;
+		margin-bottom: 60px;
+	}
+	/* Red Rinascere end */
+
+	/* Modo Explicativo */
+	.modo_explicativo h2 {
+		font-size: 2rem;
+	}
+	/* Modo Explicativo end */
+
+}
+
+@media (min-width: 1600px) {
+
+	/* Header Investigacion */
+	.investigacion .header_investigacion h1 {
+		font-size: 3rem;
+	}
+	/* Header Investigacion end */
+
+	/* Programa de Cooperacion */
+	.programa_cooperacion {
+		padding-bottom: 150px;
+		padding-top: 150px;
+	}
+
+	.programa_cooperacion h2 {
+		margin-bottom: 50px;
+	}
+
+	.programa_cooperacion p {
+		font-size: 1.15rem;
+	}
+	/* Programa de Cooperacion end */
+
+	/* Faja Rinascere */
+	.faja_rinascere {
+		height: 600px;
+	}
+	/* Faja Rinascere end */
+
+	/* Red Rinascere */
+	.red_rinascere .red {
+		padding-bottom: 150px;
+		padding-top: 150px;
+	}
+	/* Red Rinascere end */
+
+	/* Cuadricula Rinascere */
+	.cuadricula_rinascere .background_grey {
+		padding-right: 150px;
+		padding-left: 150px;
+	}
+
+	.cuadricula_rinascere .background_grey p {
+		font-size: 1.25rem;
+	}
+	/* Cuadricula Rinascere end */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
