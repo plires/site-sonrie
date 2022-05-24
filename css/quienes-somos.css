@@ -1,0 +1,664 @@
+.quienes_somos {
+	position: relative;
+}
+
+/* Header Quienes Somos */
+.quienes_somos .header_quienes_somos {
+	background: url('../img/quienes-somos/header-quienes-somos.jpg');
+}
+/* Header Quienes Somos end */
+
+/* Descripción */
+.descripcion {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.descripcion h2 {
+	font-size: 2rem;
+	font-weight: 700;
+	text-align: center;
+	color: white;
+	margin-bottom: 30px;
+}
+
+.descripcion p {
+	color: white;
+}
+
+.descripcion p:last-child {
+	margin-bottom: 0;
+}
+
+.descripcion .colibri {
+	display: none;
+}
+/* Descripción end */
+
+/* Valores */
+.valores {
+	padding-bottom: 60px;
+	padding-top: 60px;
+}
+
+.valores .content_valor {
+	background: white;
+	border-radius: 8px;
+	padding: 12px;
+	margin-bottom: 30px;
+}
+
+.valores .col-md-12:last-child .content_valor {
+	margin-bottom: 0;
+}
+
+.valores .content_valor .content_title {
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.valores .content_valor p {
+	margin-bottom: 0;
+}
+
+.valores .content_valor .content_title h2 {
+	color: var(--secondary-color);
+	font-size: 1.5rem;
+	font-weight: 700;
+	margin-bottom: 0;
+	margin-left: 10px;
+}
+
+.valores .content_valor .content_title img {
+	max-width: 35px;
+}
+/* Valores end */
+
+/* Historia */
+.historia h2 {
+	text-align: center;
+	font-weight: 700;
+	font-size: 2rem;
+	margin-bottom: 30px;
+}
+
+.historia {
+	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.historia .slick-slide {
+	padding: 15px;
+}
+
+.historia .slick-next {
+	right: 20px;
+	z-index: 1;
+	top: calc( 50% - 85px );
+}
+
+.historia .slick-prev {
+	left: 20px;
+	z-index: 1;
+	top: calc( 50% - 85px );
+}
+
+.historia .slick-prev::before, 
+.historia .slick-next::before {
+	color: var(--secondary-color);
+}
+
+
+.historia img {
+	margin: auto;
+	border-radius: 50%;
+}
+
+.historia .line {
+	position: relative;
+	width: 1px;
+	height: 60px;
+	background: var(--secondary-color);
+	margin: auto;
+	margin-top: 10px;
+}
+
+.historia .line:before {
+	content: '';
+	position: absolute;
+	width: 11px;
+	height: 11px;
+	top: 0;
+	left: calc( 50% - 5px );
+	border-radius: 50%;
+	background: var(--secondary-color);
+}
+
+.historia .line:after {
+	content: '';
+	position: absolute;
+	width: 2000px;
+	height: 1px;
+	top: 6px;
+	left: 0;
+	background: var(--secondary-color);
+}
+
+.historia .content_data {
+	position: relative;
+	background: #cacaca;
+	padding: 10px;
+	border-radius: 10px;
+	min-height: 315px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.historia .content_data h3 {
+	color: var(--secondary-color);
+	font-weight: 700;
+	font-size: 2rem;
+}
+
+.historia .content_data h4 {
+	font-size: 0.95rem;
+	font-weight: 700;
+}
+
+.historia .content_data p {
+	font-size: 0.85rem;	
+	margin-bottom: 0;
+}
+
+.historia .content_data p span {
+	font-weight: 700;
+}
+/* Historia end */
+
+/* Equipo */
+.equipo {
+	margin-bottom: 60px;
+	background: #e4e2e2;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.equipo h2 {
+	font-size: 2rem;
+	font-weight: 700;
+	margin-bottom: 30px;
+}
+
+.equipo .integrante {
+	margin-bottom: 30px;
+}
+
+.equipo .integrante .content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 12px;
+}
+
+.equipo .integrante .content h3 {
+	color: white;
+	font-size: 1.25rem;
+	font-weight: 700;
+	margin-bottom: 3px;
+}
+
+.equipo .integrante .content h4 {
+	color: white;
+	font-size: 1.125rem;
+	font-weight: 300;
+	margin-bottom: 0;
+}
+
+.equipo .col-md-12 {
+	text-align: center;
+	margin-top: 10px;
+}
+/* Equipo end */
+
+/* Testimonios */
+.testimonios {
+	margin-bottom: 30px;
+}
+
+.testimonios h2 {
+	font-size: 2rem;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.testimonios .content_info {
+	padding: 15px;
+	color: white;
+}
+
+.testimonios .content_info p:last-child {
+	font-size: 0.85rem;
+	margin-bottom: 0;
+	line-height: 1.2;
+	text-align: right;
+}
+
+.testimonios .content_info p:last-child span {
+	font-weight: 300;
+}
+
+.testimonios .people .image {
+	background-repeat: no-repeat;
+	background-position: 50% 20%;
+	background-size: cover;
+	height: 500px;
+	margin-bottom: 30px;
+}
+
+.testimonios .people .image img {
+	display: none;
+}
+
+.testimonios .people #testimonio-1 .col-md-6:last-child .image {
+	background-image: url('../img/testimonios-1.jpg');
+}
+
+.testimonios .people #testimonio-2 .col-md-6:last-child .image {
+	background-image: url('../img/testimonios-2.jpg');
+	background-position: 50% 10%;
+	margin-bottom: 0;
+}
+/* Testimonios end */
+
+
+/* MEDIA QUERIES */
+@media (min-width: 480px) {
+
+}
+
+@media (min-width: 576px) {
+
+	/* Valores */
+	.valores .content_valor {
+		padding: 25px;
+	}
+	/* Valores end */
+
+	/* Historia */
+	.historia .slick-next {
+		top: calc( 50% - 100px );
+		right: 40px;
+	}
+
+	.historia .slick-prev {
+		top: calc( 50% - 100px );
+		left: 40px;
+	}
+
+	.historia .content_data {
+		min-height: 280px;
+	}
+	/* Historia end */
+
+	/* Equipo */
+	.equipo {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+
+	.equipo .integrante {
+		position: relative;
+		margin-left: 0;
+		margin-bottom: 0;
+	}
+
+	.equipo .integrante .content {
+		position: absolute;
+		width: 100%;
+		height: 30%;
+		bottom: 0;
+		left: calc( 50% - 135px );
+		background: transparent;
+	}
+
+	.equipo .col-md-12:last-child {
+		margin-top: 50px;
+	}
+	/* Equipo end */
+
+	/* Testimonios */
+  .testimonios .content_info {
+  	min-height: 160px;
+  	display: flex;
+  	justify-content: space-between;
+  	flex-direction: column;
+  }
+
+  .testimonios h2 {
+		font-size: 1.75rem;
+	}
+
+  .testimonios .content_info p {
+  	margin: 0;
+  	font-size: 0.85rem;
+  }
+	/* Testimonios end */
+
+}
+
+@media (min-width: 768px) {
+
+	/* Descripción */
+	.descripcion h2 {
+		font-size: 1.75rem;
+	}
+	/* Descripción end */
+
+	/* Historia */
+	.historia h2 {
+		font-size: 1.75rem;
+	}
+	/* Historia end */
+
+	/* Equipo */
+	.equipo h2 {
+		font-size: 1.75rem;
+	}
+
+	.equipo .integrante .content {
+		height: 30%;
+		left: calc( 50% - 120px );
+	}
+	/* Equipo end */
+
+	/* Valores */
+	.valores .content_valor {
+		padding: 60px;
+	}
+	/* Valores end */
+
+	/* Historia */
+	.historia .slick-next {
+		top: calc( 50% - 120px );
+	}
+
+	.historia .slick-prev {
+		top: calc( 50% - 120px );
+	}
+
+	.historia .content_data {
+		min-height: 330px;
+	}
+
+	.historia .content_data h3 {
+		font-size: 1.5rem;
+	}
+	/* Historia end */
+
+	/* Testimonios */
+	.testimonios .back_light_color {
+		padding-top: 60px!important;
+		padding-bottom: 60px!important;
+	}
+
+	.testimonios .content_info {
+		height: 100%;
+	} 
+
+	.testimonios .people #testimonio-1 .col-md-6:last-child .image {
+		margin-bottom: 0;
+	}
+
+	.testimonios .people #testimonio-1 .col-md-6:first-child,
+	.testimonios .people #testimonio-2 .col-md-6:first-child {
+		padding-right: 0;
+	}
+
+	.testimonios .people #testimonio-1 .col-md-6:last-child,
+	.testimonios .people #testimonio-2 .col-md-6:last-child {
+		padding-left: 0;
+	}
+
+	.testimonios .content_info p {
+		font-size: 1rem;
+		position: relative;
+	}
+
+	.testimonios .content_info p:first-child {
+		margin-top: 60px;
+		padding-bottom: 30px;
+	}
+
+	.testimonios .content_info p:first-child:before {
+		content: '\201C';
+		position: absolute;
+		top: 0;
+		left: 0;
+		font-size: 4rem;
+		margin-top: -60px;
+	}
+
+	.testimonios .content_info p:first-child:after {
+		content: '';
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 60px;
+		height: 5px;
+		background: white;
+	}
+	/* Testimonios end */
+
+}
+
+@media (min-width: 992px) {
+
+	/* Valores */
+	.valores .content_valor .content_title {
+		margin-bottom: 20px;
+	}
+
+	.valores .content_valor .content_title h2 {
+		font-size: 2rem;
+		margin-left: 15px;
+	}
+
+	.valores .content_valor .content_title img {
+		max-width: 50px;
+	}
+	/* Valores end */
+
+	/* Historia */
+	.historia .content_data h3 {
+		font-size: 1.75rem;
+	}
+
+	.historia .content_data {
+		min-height: 235px;
+	}
+
+	.historia .slick-next {
+		right: 40px;
+		top: calc( 50% - 40px );
+		width: 35px;
+		height: 35px;
+	}
+
+	.historia .slick-prev {
+		left: 40px;
+		top: calc( 50% - 40px );
+		width: 35px;
+		height: 35px;
+	}
+
+	.historia .slick-prev::before, .slick-next::before {
+		font-size:  35px;
+	}
+	/* Historia end */
+
+	/* Equipo */
+	.equipo .integrante .content {
+		left: calc( 50% - 160px );
+	}
+	/* Equipo end */
+
+}
+
+@media (min-width: 1200px) {
+
+	/* Historia */
+	.historia .slick-next {
+		top: calc( 50% - 20px );
+	}
+
+	.historia .slick-prev {
+		top: calc( 50% - 20px );
+	}
+
+	.historia .content_data {
+		min-height: 215px;
+	}
+	/* Historia end */
+
+	/* Equipo */
+	.equipo .integrante .content {
+		left: calc( 50% - 190px );
+	}
+
+	.equipo .integrante .content h2 {
+		font-size: 1.5rem;
+	}
+
+	.equipo .integrante .content h3 {
+		font-size: 1.25rem;
+	}
+	/* Equipo end */
+
+	/* Testimonios */
+	.testimonios {
+		margin-bottom: 60px;
+	}
+
+	.testimonios .content_info {
+		justify-content: space-around;
+	}
+	/* Testimonios end */
+
+}
+
+@media (min-width: 1300px) {
+
+	/* Descripción */
+	.descripcion h2 {
+		font-size: 2rem;
+	}
+	/* Descripción end */
+
+	/* Valores */
+	.valores {
+		padding-top: 90px;
+		padding-bottom: 90px;
+	}
+
+	.valores .content_valor {
+		margin-bottom: 80px;
+	}
+
+	.valores .content_valor p {
+		font-size: 1.15rem;
+	}
+	/* Valores end */
+
+	/* Historia */
+	.historia h2 {
+		font-size: 2rem;
+	}
+
+	.historia .content_data {
+		min-height: 195px;
+	}
+	/* Historia end */
+
+	/* Equipo */
+	.equipo h2 {
+		font-size: 2rem;
+	}
+
+	/* Testimonios */
+	.testimonios .back_light_color {
+		padding-top: 60px!important;
+		padding-bottom: 120px!important;
+	}
+
+	.testimonios h2 {
+		font-size: 2rem;
+	}
+	/* Testimonios end */
+
+}
+
+@media (min-width: 1400px) {
+
+	/* Equipo */
+	.equipo .integrante .content {
+		left: calc( 50% - 220px );
+	}
+	/* Equipo end */
+
+}
+
+@media (min-width: 1600px) {
+
+	/* Header Quienes Somos */
+	.quienes_somos .header_quienes_somos h1 {
+		font-size: 4rem;
+	}
+	/* Header Quienes Somos end */
+
+	/* Descripción */
+	.descripcion {
+		position: relative;
+	}	
+
+	.descripcion p {
+		font-size: 1.15rem;
+	}	
+
+	.descripcion .colibri {
+		display: inline-block;
+		background: url('../img/quienes-somos/colibri.png');
+		background-position: 50% 50%;
+		background-repeat: no-repeat;
+		background-size: 100%;
+		width: 170px;
+		height: 220px;
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		opacity: 0.3;
+	}
+	/* Descripción end */
+
+	/* Testimonios */
+	.testimonios .content_info p {
+		font-weight: 700;
+		font-size: 1.25rem;
+	}
+
+	.testimonios .content_info p:last-child {
+		line-height: 1.5;
+	}
+
+	.testimonios .content_info p:first-child::before {
+		margin-top: -80px;
+		padding-bottom: 50px;
+	}
+	/* Testimonios end */
+
+}
