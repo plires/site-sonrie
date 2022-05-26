@@ -1,6 +1,6 @@
 <?php
 //incluimos la clase PHPMailer
-require_once( __DIR__ . '/../../vendor/autoload.php' );
+require_once( __DIR__ . '/../vendor/autoload.php' );
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
@@ -8,6 +8,54 @@ use PHPMailer\PHPMailer\Exception;
 
   class App 
   {
+
+    public function getLinkPayMercadoPago($price)
+    {
+
+      // Agrega credenciales
+      MercadoPago\SDK::setAccessToken(ACCESS_TOKEN);
+      
+      # Crear un objeto preferencia
+      $preference = new MercadoPago\Preference();
+      # Crea ítems en la preferencia
+      $item = new MercadoPago\Item;
+      $item->title = "Donación a Fundación Sonrie la Vida";
+      $item->quantity = 1;
+      // $item->picture_url = BASE . $image;
+      $item->unit_price = $price;
+
+      $preference->items = array($item);
+
+      $dateFrom = date(DATE_W3C);
+      $dateTo = date(DATE_W3C,strtotime($dateFrom."+ 1 hour"));
+
+      $preference->expires = true;
+      $preference->expiration_date_from = $dateFrom;
+      $preference->expiration_date_to = $dateTo;
+
+      $preference->back_urls = array(
+        "success" => REDIRECT_SUCCESS,
+        "failure" => REDIRECT_PENDING,
+        "pending" => REDIRECT_FAILURE
+      );
+
+      $preference->auto_return = "approved";
+
+      # Guardar y postear la preferencia
+      $order = $preference->save();
+
+      if ($order) {
+
+        $order_data = [
+          "link_pay" => $preference->init_point,
+        ];
+
+        return $order_data;
+      }
+
+      return false;
+
+    }
 
     public function sendEmail($destinatario, $template, $post)
     {

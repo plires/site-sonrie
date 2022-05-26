@@ -219,6 +219,21 @@
 	min-width: 80px;
 }
 
+.formulario .form_donation .importes button.active,
+.formulario .form_donation .otro_importe button.active {
+	background: green!important;
+	color: white!important;
+	border-color: green!important;
+}
+
+.formulario #txt_otro_importe {
+	display: none;
+}
+
+.formulario #txt_otro_importe.active {
+	display: inline-block;
+}
+
 .formulario .form_donation .otro_importe {
 	display: flex;
 	margin-bottom: 30px;
@@ -229,7 +244,21 @@
 }
 
 .formulario .form_donation .content_button_siguiente {
-	text-align: right;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.formulario .form_donation .content_button_siguiente p {
+	margin-bottom: 0!important;
+	font-size: 0.85rem;
+	color: green;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.formulario .form_donation .content_button_siguiente .error_donation {
+	color: red;
 }
 
 .formulario p {
