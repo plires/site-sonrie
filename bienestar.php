@@ -96,7 +96,7 @@
 						</p>
 
 						<div data-aos="fade-up" class="content_button">
-							<a href="#" class="btn btn-primary">SUMATE</a>
+							<a href="./contacto.php" class="btn btn-primary">SUMATE</a>
 						</div>
 					</div>
 
@@ -114,7 +114,6 @@
 
 	<script type="text/javascript" src="./../node_modules/jquery/dist/jquery.min.js"></script>
 	<script type="text/javascript" src="./../node_modules/jquery-easing/dist/jquery.easing.1.3.umd.min.js"></script>
-	<script src="https://www.google.com/recaptcha/api.js?render=<?= RECAPTCHA_KEY_SITE ?>"></script>
 	<script type="text/javascript" src="./../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="./../node_modules/aos/dist/aos.js"></script>
 	<script type="text/javascript" src="./js/app.js"></script>

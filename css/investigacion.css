@@ -338,6 +338,10 @@
 	.cuadricula_rinascere .background_grey p {
 		font-size: 1.25rem;
 	}
+
+	.cuadricula_rinascere img {
+		width: 100%;
+	}
 	/* Cuadricula Rinascere end */
 
 }

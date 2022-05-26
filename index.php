@@ -83,7 +83,7 @@
 			        </p>
 
 			        <div class="content_buton">
-			        	<a href="#" class="btn btn-primary">Sumate</a>
+			        	<a href="./contacto.php" class="btn btn-primary">Sumate</a>
 			        </div>
 
 		  			</div>
@@ -129,7 +129,7 @@
 					<img class="img-fluid img_fundacion" src="./img/home/programa-cooperacion.jpg" alt="programa cooperacion">
 					<div class="content_programas">
 						<h3>Programa de cooperación</h3>
-						<a href="#" class="btn btn-primary">+ Info</a>
+						<a href="./contacto.php" class="btn btn-primary">+ Info</a>
 					</div>
 				</div>
 
@@ -137,7 +137,7 @@
 					<img class="img-fluid img_fundacion" src="./img/home/centro-ivestigacion.jpg" alt="centro de investigacion">
 					<div class="content_programas">
 						<h3>Centro de investigación y desarrollo</h3>
-						<a href="#" class="btn btn-primary">+ Info</a>
+						<a href="./contacto.php" class="btn btn-primary">+ Info</a>
 					</div>
 				</div>
 
