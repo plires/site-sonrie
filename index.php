@@ -54,10 +54,10 @@
 	<!-- Favicons -->
 	<?php include('includes/favicon.php'); ?>
 
-	<link rel="stylesheet" type="text/css" href="./../node_modules/normalize.css/normalize.css">
-	<link rel="stylesheet" type="text/css" href="./../node_modules/@fortawesome/fontawesome-free/css/all.min.css">
-	<link rel="stylesheet" type="text/css" href="./../node_modules/bootstrap/dist/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="./../node_modules/aos/dist/aos.css"/>
+	<link rel="stylesheet" type="text/css" href="./node_modules/normalize.css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./node_modules/aos/dist/aos.css"/>
 	<link rel="stylesheet" href="./css/app.css">
 </head>
 <body>
@@ -318,11 +318,12 @@
 	<!-- Footer -->
 	<?php include_once('./includes/footer.php'); ?>
 
-	<script type="text/javascript" src="./../node_modules/jquery/dist/jquery.min.js"></script>
-	<script type="text/javascript" src="./../node_modules/jquery-easing/dist/jquery.easing.1.3.umd.min.js"></script>
+	<script type="text/javascript" src="./node_modules/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="./node_modules/jquery-easing/dist/jquery.easing.1.3.umd.min.js"></script>
 	<script src="https://www.google.com/recaptcha/api.js?render=<?= RECAPTCHA_KEY_SITE ?>"></script>
-	<script type="text/javascript" src="./../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="./../node_modules/aos/dist/aos.js"></script>
+	<script type="text/javascript" src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="./node_modules/aos/dist/aos.js"></script>
+	<script type="text/javascript" src="./node_modules/vue/dist/vue.global.js"></script>
 	<script type="text/javascript" src="./js/app.js"></script>
 	<script src="js/formsContact.js"></script>
 
