@@ -157,7 +157,7 @@ fue la creación del PROGRAMA Rinascere">
 		<!-- Cuadricula Rinascere end -->
 
 		<!-- Modo Explicativo -->
-		<section data-aos="fade-up" class="container modo_explicativo">
+		<!-- <section data-aos="fade-up" class="container modo_explicativo">
 
 	  	<div class="row">
 		  	<div data-aos="fade-up" class="col-md-12">
@@ -165,7 +165,7 @@ fue la creación del PROGRAMA Rinascere">
 		  	</div>
 	  	</div>
 
-		</section>
+		</section> -->
 		<!-- Modo Explicativo end -->
 
 	</section>
