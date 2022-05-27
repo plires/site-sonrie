@@ -226,6 +226,53 @@ header .col-md-12 {
 }
 /* Header Imagen Content end */
 
+/* Payment */
+.payment h1 {
+	margin-top: 4rem;
+	margin-bottom: 3rem;
+	color: white;
+	font-weight: 700;
+	text-align: center;
+}
+
+.payment h2 {
+	color: white;
+	font-weight: 700;
+	margin-bottom: 2rem;
+}
+
+.payment p {
+	color: white;
+}
+
+.payment hr {
+	background: white;
+}
+
+.payment .link {
+	color: var(--primary-color);
+}
+
+.payment .link:hover {
+	color: white;
+}
+
+.payment .segui_navegando {
+	margin-top: 1rem;
+	margin-bottom: 3rem;
+	background-color: white !important;
+	border-color: var(--secondary-color) !important;
+	color: var(--secondary-color) !important;
+	font-size: 1rem!important;
+}
+
+.payment .segui_navegando:hover {
+	background-color: var(--secondary-color)!important;
+	border-color: white!important;
+	color: white!important;
+}
+/* Payment end */
+
 /* Footer */
 footer {
 	background: black;
