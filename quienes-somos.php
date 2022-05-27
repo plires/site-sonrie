@@ -282,7 +282,7 @@
 
 			  <div class="row">
 			  	<div class="col-md-12">
-			  		<a data-aos="fade-up" href="#" class="btn btn-primary">Sumate</a>
+			  		<a data-aos="fade-up" href="./contacto.php" class="btn btn-primary">Sumate</a>
 			  	</div>
 			  </div>
 
