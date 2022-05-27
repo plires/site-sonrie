@@ -9,7 +9,7 @@ use PHPMailer\PHPMailer\Exception;
   class App 
   {
 
-    public function getLinkPayMercadoPago($price)
+    public function getLinkPayMercadoPago($price, $image)
     {
 
       // Agrega credenciales
@@ -21,7 +21,7 @@ use PHPMailer\PHPMailer\Exception;
       $item = new MercadoPago\Item;
       $item->title = "Donación a Fundación Sonrie la Vida";
       $item->quantity = 1;
-      // $item->picture_url = BASE . $image;
+      $item->picture_url = $image;
       $item->unit_price = $price;
 
       $preference->items = array($item);

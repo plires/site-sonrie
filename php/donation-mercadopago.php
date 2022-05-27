@@ -19,7 +19,7 @@
 
   }
 
-  $mp = $app->getLinkPayMercadoPago( $_POST['value'] );
+  $mp = $app->getLinkPayMercadoPago( $_POST['value'], IMAGE_FOR_MP );
 
   header('Content-type: application/json');
   echo json_encode($mp);
