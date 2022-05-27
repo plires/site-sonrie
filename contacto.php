@@ -3,6 +3,8 @@
 	require ('includes/config.inc.php');
   include_once('includes/soporte.php');
 
+  $current = 'contacto';
+
   //Variables Get
   include_once('includes/get-variable-handling.php');
 

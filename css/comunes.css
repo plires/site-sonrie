@@ -142,6 +142,13 @@ header nav ul li {
 	padding: 15px 5px;
 }
 
+header nav ul li.active {
+	background: var(--secondary-color);
+  border-radius: 3px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
 header nav ul li a {
 	color: white;
 	font-size: 1.75rem;
@@ -344,7 +351,7 @@ footer .col-md-10 .data i:hover {
 	}
 
 	header nav ul li:nth-child(4) {
-		padding-right: 80px;
+		margin-right: 80px;
 	}
 
 	header nav ul li a {

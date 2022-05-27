@@ -1,6 +1,8 @@
 <?php
 	require ('includes/config.inc.php');
   include_once('includes/soporte.php');
+
+  $current = 'quienes_somos';
 ?>
 
 <!DOCTYPE html>

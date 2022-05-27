@@ -1,6 +1,9 @@
 <?php
 	require ('includes/config.inc.php');
   include_once('includes/soporte.php');
+
+  $current = 'investigacion';
+
 ?>
 
 <!DOCTYPE html>
