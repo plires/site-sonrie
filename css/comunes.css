@@ -375,12 +375,17 @@ footer .col-md-10 .data i:hover {
 		display: none;
 	}
 
+	header .branding {
+		margin-left: 5%;
+	}
+
 	header nav {
 		position: relative;
 		width: auto;
 		height: auto;
 		top: 0;
 		background: transparent;
+		margin-right: 5%;
 	}
 
 	header nav ul {
